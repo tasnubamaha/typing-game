@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing game</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body style="text-align: center; margin-top: 90px; background-color: gainsboro;">
+    <h1 style="font-weight: bolder; font-size: 50px;">Typing Game!</h1>
+    <p style="font-weight: semi-bold; font-size: 25px;">Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
+    <p id="quote" style="font-size: 20px;"></p> <!-- This will display our quote -->
+    <p id="message"></p> <!-- This will display any status messages -->
+    <div>
+      <input type="text" aria-label="current word" id="typed-value" /> <!-- The textbox for typing -->
+      <button style="border-radius: 10px; padding: 5px 10px; border: none;" type="button" id="start">Start</button> <!-- To start the game -->
+    </div>
+<script src="index.js"></script>
+</html>
